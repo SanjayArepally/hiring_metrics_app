@@ -1,7 +1,7 @@
 # Hiring Campaign Metrics — Streamlit Demo
 
 ## Problem
-Hiring teams need quick, trusted hiring funnel metrics without manual data pulls.
+Hiring teams need quick, trusted metrics for the hiring funnel without manual data pulls.
 
 ## Solution
 Lightweight ETL (pandas → SQLite) + Streamlit dashboard. Shows KPIs, filters, charts, and downloadable CSV. Demo includes an ETL button to re-run the pipeline locally.
@@ -23,4 +23,4 @@ Lightweight ETL (pandas → SQLite) + Streamlit dashboard. Shows KPIs, filters, 
 - ats.db — generated SQLite DB (ignored by .gitignore)
 
 ## Notes
-- For production: replace SQLite with S3/Redshift, schedule ETL via Airflow/Glue, use secure credentials and remove ETL button from public hosting.
+- For production: replace SQLite with S3/Redshift, schedule ETL via Airflow/Glue, use secure credentials, and remove the ETL button from public hosting.
