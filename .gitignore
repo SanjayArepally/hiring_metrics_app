@@ -1,0 +1,1 @@
+# Python __pycache__/ *.pyc .venv/ venv/ env/ .env # Virtual environments venv/ .venv/ env/ ENV/ # Data / DB *.db ats.db *.sqlite data/ *.csv # OS files .DS_Store Thumbs.db # IDEs .vscode/ .idea/ # Credentials / secrets *.pem *.key *.env secrets.json
